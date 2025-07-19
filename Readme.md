@@ -83,9 +83,19 @@ Sample steps:
 | Backend | JUnit | Unit and integration |
 | CI/CD | GitHub | Status checks, health |
 
+
+## Infrastructure Documentation
+
+Detailed documentation for the infrastructure is available in the following links:
+
+- **For Product Owners/Clients:** [Client Infrastructure Documentation](https://github.com/AmaliTech-Training-Academy/gtp2-devjobs-backend/blob/develop/infrastructure/README-CLIENT.md)
+- **For Developers:** [Technical Infrastructure Documentation](https://github.com/AmaliTech-Training-Academy/gtp2-devjobs-backend/blob/develop/infrastructure/README.md)
+
+
 ## Security Best Practices
 
 - No secrets committed to source control
 - Docker containers run as non-root
 - IAM roles follow the least privilege principle
 - GitHub secrets used for AWS credentials
+
