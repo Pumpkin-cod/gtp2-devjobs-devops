@@ -4,6 +4,21 @@ A scalable, containerized job portal application deployed on AWS using modern De
 
 This documentation provides an overview of how DevOps enables seamless CI/CD, container orchestration, and infrastructure automation using Terraform, GitHub Actions, Docker, Amazon ECS, and integrations with Slack and SNS.
 
+## Table of Contents
+
+- [Architecture Overview](#architecture-overview)
+- [Live URLs](#live-urls)
+- [DevOps Implementation Details](#devops-implementation-details)
+  - [Infrastructure as Code (Terraform)](#infrastructure-as-code-terraform)
+  - [Dockerized Workflows](#dockerized-workflows)
+  - [CI/CD Pipeline (GitHub Actions)](#cicd-pipeline-github-actions)
+  - [Load Balancing with ALB](#load-balancing-with-alb)
+  - [Slack & SNS Notifications](#slack--sns-notifications)
+- [Testing Strategy](#testing-strategy)
+- [CI/CD Documentation](#cicd-documentation)
+- [Infrastructure Documentation](#infrastructure-documentation)
+- [Security Best Practices](#security-best-practices)
+
 ## Architecture Overview
 
 | Layer | Stack |
@@ -83,6 +98,18 @@ Sample steps:
 | Backend | JUnit | Unit and integration |
 | CI/CD | GitHub | Status checks, health |
 
+
+## CI/CD Documentation
+
+Detailed documentation for the CI/CD pipelines is available in the following links:
+
+### Frontend CI/CD
+- **For Product Owners/Clients:** [Frontend Business Documentation](https://github.com/AmaliTech-Training-Academy/gtp2-devjobs-frontend/blob/development/cicd-documentation-business.md)
+- **For Developers:** [Frontend Technical Documentation](https://github.com/AmaliTech-Training-Academy/gtp2-devjobs-frontend/blob/development/cicd-documentation-developers.md)
+
+### Backend CI/CD
+- **For Product Owners/Clients:** [Backend Business Documentation](https://github.com/AmaliTech-Training-Academy/gtp2-devjobs-backend/blob/develop/CICD-BUSINESS.md)
+- **For Developers:** [Backend Technical Documentation](https://github.com/AmaliTech-Training-Academy/gtp2-devjobs-backend/blob/develop/CICD-TECHNICAL.md)
 
 ## Infrastructure Documentation
 
