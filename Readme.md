@@ -8,7 +8,6 @@ This documentation provides an overview of how DevOps enables seamless CI/CD, co
 
 - [Architecture Overview](#architecture-overview)
 - [Live URLs](#live-urls)
-- [Monitoring Dashboards](#monitoring-dashboards)
 - [DevOps Implementation Details](#devops-implementation-details)
   - [Infrastructure as Code (Terraform)](#infrastructure-as-code-terraform)
   - [Dockerized Workflows](#dockerized-workflows)
@@ -18,6 +17,7 @@ This documentation provides an overview of how DevOps enables seamless CI/CD, co
 - [Testing Strategy](#testing-strategy)
 - [CI/CD Documentation](#cicd-documentation)
 - [Infrastructure Documentation](#infrastructure-documentation)
+- [Monitoring Dashboards](#monitoring-dashboards)
 - [Security Best Practices](#security-best-practices)
 
 ## Architecture Overview
@@ -36,10 +36,7 @@ This documentation provides an overview of how DevOps enables seamless CI/CD, co
 - **Frontend:** http://gtp2-fe-testing-alb-512036373.eu-central-1.elb.amazonaws.com
 - **Backend:** http://gtp2-be-testing-alb-114080375.eu-central-1.elb.amazonaws.com
 
-## Monitoring Dashboards
 
-- **Primary Environment:** [CloudWatch Dashboard](https://eu-central-1.console.aws.amazon.com/cloudwatch/home?region=eu-central-1#dashboards:name=gtp2-devjobs-primary)
-- **Testing Environment:** [CloudWatch Dashboard](https://eu-central-1.console.aws.amazon.com/cloudwatch/home?region=eu-central-1#dashboards:name=gtp2-devjobs-testing)
 
 ## DevOps Implementation Details
 
@@ -124,6 +121,11 @@ Detailed documentation for the infrastructure is available in the following link
 - **For Product Owners/Clients:** [Client Infrastructure Documentation](https://github.com/AmaliTech-Training-Academy/gtp2-devjobs-backend/blob/develop/infrastructure/README-CLIENT.md)
 - **For Developers:** [Technical Infrastructure Documentation](https://github.com/AmaliTech-Training-Academy/gtp2-devjobs-backend/blob/develop/infrastructure/README.md)
 
+
+## Monitoring Dashboards
+
+- **Primary Environment:** [CloudWatch Dashboard](https://eu-central-1.console.aws.amazon.com/cloudwatch/home?region=eu-central-1#dashboards:name=gtp2-devjobs-primary)
+- **Testing Environment:** [CloudWatch Dashboard](https://eu-central-1.console.aws.amazon.com/cloudwatch/home?region=eu-central-1#dashboards:name=gtp2-devjobs-testing)
 
 ## Security Best Practices
 
